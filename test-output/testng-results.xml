@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-17T20:07:26 IST" name="My TestNG tests" finished-at="2022-01-17T20:08:00 IST" duration-ms="34399">
+    <groups>
+      <group name="Login3">
+        <method signature="LoginTest.MultipleLogin(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@54562ea6]" name="MultipleLogin" class="Tests.LoginTest"/>
+      </group> <!-- Login3 -->
+      <group name="Login">
+        <method signature="LoginTest.MultipleLogin(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@54562ea6]" name="MultipleLogin" class="Tests.LoginTest"/>
+      </group> <!-- Login -->
+    </groups>
+    <test started-at="2022-01-17T20:07:26 IST" name="Sample Test" finished-at="2022-01-17T20:08:00 IST" duration-ms="34399">
+      <class name="Tests.LoginTest">
+        <test-method is-config="true" signature="hitURL()[pri:0, instance:Tests.LoginTest@54562ea6]" started-at="2022-01-17T20:07:26 IST" name="hitURL" finished-at="2022-01-17T20:07:33 IST" duration-ms="7011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitURL -->
+        <test-method signature="MultipleLogin(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@54562ea6]" started-at="2022-01-17T20:07:33 IST" name="MultipleLogin" description="Multiple login" data-provider="login-data" finished-at="2022-01-17T20:07:35 IST" duration-ms="1858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RizwanDemo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPassword@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleLogin -->
+        <test-method is-config="true" signature="hitURL()[pri:0, instance:Tests.LoginTest@54562ea6]" started-at="2022-01-17T20:07:35 IST" name="hitURL" finished-at="2022-01-17T20:07:36 IST" duration-ms="1162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitURL -->
+        <test-method signature="MultipleLogin(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@54562ea6]" started-at="2022-01-17T20:07:36 IST" name="MultipleLogin" description="Multiple login" data-provider="login-data" finished-at="2022-01-17T20:07:47 IST" duration-ms="10603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RizwanDemo2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPassword@2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleLogin -->
+        <test-method is-config="true" signature="hitURL()[pri:0, instance:Tests.LoginTest@54562ea6]" started-at="2022-01-17T20:07:47 IST" name="hitURL" finished-at="2022-01-17T20:07:49 IST" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitURL -->
+        <test-method signature="MultipleLogin(java.lang.String,java.lang.String)[pri:1, instance:Tests.LoginTest@54562ea6]" started-at="2022-01-17T20:07:49 IST" name="MultipleLogin" description="Multiple login" data-provider="login-data" finished-at="2022-01-17T20:08:00 IST" duration-ms="10709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RizwanDemo3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TestPassword@3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleLogin -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Tests.LoginTest@54562ea6]" started-at="2022-01-17T20:08:01 IST" name="closeBrowser" finished-at="2022-01-17T20:08:01 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- My TestNG tests -->
+</testng-results>

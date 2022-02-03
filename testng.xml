@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="My TestNG tests">
+
+	<listeners> 
+		<listener class-name="utility.Listener"/>  
+	</listeners>
+	
+  <test thread-count="5" name="Sample Test">
+  
+	  <parameter name="username" value="RizwanDemo"/>
+	  <parameter name="password" value="TestPassword@1"/>
+	  <parameter name="wrongPassword" value="WrongPassword@1"/>
+	 
+  
+   <groups>
+   		<run>
+   			<include name="Login3"/>
+   			<exclude name="Login2"/>
+   		</run>
+   </groups>
+  
+    <classes>
+      <class name="Tests.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->
